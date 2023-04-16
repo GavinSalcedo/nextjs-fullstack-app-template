@@ -7,12 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "prepare": "husky install",
+    "commit": "cz commit"
   },
   "dependencies": {
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
+    "commitizen": "^4.3.0",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "next": "13.3.0",
@@ -26,6 +29,7 @@
     "yarn": "please use npm"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
     "prettier": "^2.8.7"
   }
 }
