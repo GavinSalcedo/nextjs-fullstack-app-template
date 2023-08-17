@@ -31,7 +31,10 @@
     "yarn": "please use npm"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.15",
     "husky": "^8.0.3",
-    "prettier": "^2.8.7"
+    "postcss": "^8.4.28",
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.3.3"
   }
 }
