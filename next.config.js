@@ -10,7 +10,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'img.represent.com',
         port: '',
-        pathname: '/**'
+        pathname: '/**',
       },
     ],
   },
