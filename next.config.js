@@ -8,7 +8,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'img.represent.com',
+        hostname: '**',
         port: '',
         pathname: '/**',
       },
