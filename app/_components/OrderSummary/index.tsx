@@ -17,7 +17,7 @@ function OrderSummary() {
         <label className="text-xl font-bold">$16.99</label>
       </div>
 
-      <Button>Checkout</Button>
+      <Button block>Checkout</Button>
     </span>
   );
 }
