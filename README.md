@@ -11,6 +11,7 @@ This is my personal boilerplate using Next.js 13 with the app router directory.
 - TypeScript
 - TailWind CSS
 - Github Workflow / Actions
+- Storybook
 
 ## Author
 

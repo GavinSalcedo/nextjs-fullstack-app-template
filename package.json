@@ -9,7 +9,9 @@
     "lint": "next lint",
     "prettier": "prettier --write .",
     "prepare": "husky install",
-    "commit": "cz commit"
+    "commit": "cz commit",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@types/node": "18.15.11",
@@ -31,10 +33,19 @@
     "yarn": "please use npm"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.3.2",
+    "@storybook/addon-interactions": "^7.3.2",
+    "@storybook/addon-links": "^7.3.2",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.3.2",
+    "@storybook/nextjs": "^7.3.2",
+    "@storybook/react": "^7.3.2",
+    "@storybook/testing-library": "^0.2.0",
     "autoprefixer": "^10.4.15",
     "husky": "^8.0.3",
     "postcss": "^8.4.28",
     "prettier": "^2.8.7",
+    "storybook": "^7.3.2",
     "tailwindcss": "^3.3.3"
   }
 }
