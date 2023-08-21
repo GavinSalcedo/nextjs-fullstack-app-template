@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: 1,
+    name: 'Makeout Tee',
+    description: 'Unisex Fitted Tee',
+    price: 27.99,
+    color: 'White',
+    availableSizes: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
+    stock: 10,
+    img: [
+      'https://img.merch.cameo.com/uploads/10f7222c4d6a60083686046f6984feda.png?w=750&q=95&auto=format',
+      'https://img.merch.cameo.com/uploads/262a3cd2ef1dddeee7627baae9615abc.jpg?w=750&q=95&auto=format',
+    ],
+    category: 'Shirts',
+  },
+  {
+    id: 2,
+    name: 'Mermen Tee',
+    description: 'Unisex Fitted Tee',
+    price: 27.99,
+    color: 'Black',
+    availableSizes: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
+    stock: 15,
+    img: [
+      'https://img.merch.cameo.com/uploads/a481f758928ddfe2350ee9b202a92366.png?w=750&q=95&auto=format',
+      'https://img.merch.cameo.com/uploads/95a0a1a6503b9c8c7b917edcc0339f4b.jpg?w=750&q=95&auto=format',
+    ],
+    category: 'Shirts',
+  },
+  {
+    id: 3,
+    name: 'Stardew Hoodie',
+    description: 'Premium Pullover Hoodie',
+    price: 49.99,
+    color: 'Heather Grey',
+    availableSizes: ['S', 'M', 'L', 'XL', '2XL'],
+    stock: 5,
+    img: [
+      'https://img.merch.cameo.com/uploads/58f8e00b46072403251e152a47a1da1d.png?w=750&q=95&auto=format',
+      'https://img.merch.cameo.com/uploads/c314801ff9bcf67d6f5387cd16fd6998.jpg?w=750&q=95&auto=format',
+    ],
+    category: 'Hoodies',
+  },
+  {
+    id: 4,
+    name: 'Lightening Hoodie',
+    description: 'Premium Pullover Hoodie',
+    price: 49.99,
+    color: 'Black',
+    availableSizes: ['S', 'M', 'L', 'XL', '2XL'],
+    stock: 55,
+    img: [
+      'https://img.merch.cameo.com/uploads/a8dd7647782c982778a13da5864d034d.png?w=750&q=95&auto=format',
+      'https://img.merch.cameo.com/uploads/d2bf294e6aa5aebc49302823cde32f4e.png?w=750&q=95&auto=format',
+    ],
+    category: 'Hoodies',
+  },
+];
