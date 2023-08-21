@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 import Cart from '../Cart';
 import NavLink from './NavLink';
@@ -10,12 +11,14 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center py-4 px-8 bg-black text-white">
-      <Image
-        src="https://img.represent.com/uploads/users/1353172/e79b5bdd46b790b7ce393429c8a92366.png?"
-        width={130}
-        height={130}
-        alt="Picture of the website logo"
-      />
+      <Link className="cursor-pointer" href="/">
+        <Image
+          src="https://img.represent.com/uploads/users/1353172/e79b5bdd46b790b7ce393429c8a92366.png?"
+          width={130}
+          height={130}
+          alt="Picture of the website logo"
+        />
+      </Link>
 
       <div className="hidden md:flex space-x-4">
         <NavLink href="/">Home</NavLink>
